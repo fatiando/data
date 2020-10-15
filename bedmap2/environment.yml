@@ -1,0 +1,13 @@
+name: bedmap2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - jupyter
+  - jupytext
+  - matplotlib
+  - xarray
+  - pooch
