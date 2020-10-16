@@ -137,6 +137,8 @@ uncertainty
 #
 # Use `zlib` encoding for reducing their size.
 
+grid.bed
+
 grid.to_netcdf(
     results_dir / "bedmap2.nc",
     encoding={dataset: {"zlib": True} for dataset in grid},
