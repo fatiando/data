@@ -1,4 +1,4 @@
-name: bedmap2
+name: rockhound-data
 channels:
   - conda-forge
   - defaults
@@ -10,4 +10,4 @@ dependencies:
   - jupytext
   - matplotlib
   - xarray
-  - pooch
+  - pooch>=1.0
