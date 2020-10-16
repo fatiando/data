@@ -8,9 +8,9 @@
 #       format_version: '1.5'
 #       jupytext_version: 1.6.0
 #   kernelspec:
-#     display_name: Python [conda env:bedmap2]
+#     display_name: Python [conda env:rockhound-data]
 #     language: python
-#     name: conda-env-bedmap2-py
+#     name: conda-env-rockhound-data-py
 # ---
 
 # # Transform Bedmap2 data given as GeoTiff files to netCDF files
