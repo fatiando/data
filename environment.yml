@@ -1,0 +1,16 @@
+name: rockhound-data
+channels:
+  - conda-forge
+dependencies:
+  - python==3.8
+  - pip
+  - numpy
+  - scipy
+  - jupyter
+  - matplotlib
+  - xarray
+  - netcdf4
+  - pyproj
+  - pooch>=1.0
+  - harmonica==0.2.1
+  - verde==1.6.1
