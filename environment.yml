@@ -2,7 +2,7 @@ name: rockhound-data
 channels:
   - conda-forge
 dependencies:
-  - python==3.8
+  - python==3.9
   - pip
   - numpy
   - scipy
@@ -14,3 +14,5 @@ dependencies:
   - pooch>=1.0
   - harmonica==0.2.1
   - verde==1.6.1
+  - pygmt==0.4.1
+  - gmt==6.2.0
