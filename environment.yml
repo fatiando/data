@@ -11,8 +11,15 @@ dependencies:
   - xarray
   - netcdf4
   - pyproj
+  # for LIDAR data
+  - laspy
+  - laszip # the C lib
+  - pip:
+    - laszip # the Python bindinds
+  # Fatiando
   - pooch>=1.0
   - harmonica==0.2.1
   - verde==1.6.1
+  # GMT for plotting
   - pygmt==0.4.1
   - gmt==6.2.0
