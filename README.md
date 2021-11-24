@@ -11,7 +11,7 @@ Whenever possible, the code also downloads the original data (otherwise the
 original data are included in this repository).
 
 The curated datasets are published in a Zenodo archive:
-https://doi.org/10.5281/zenodo.5167357
+https://doi.org/10.5281/zenodo.5167356
 
 > **NOTE:** This collection uses [semantic version](https://semver.org/) 
 > (i.e., `MAJOR.MINOR.BUGFIX` format). 
