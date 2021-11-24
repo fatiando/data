@@ -13,6 +13,14 @@ original data are included in this repository).
 The curated datasets are published in a Zenodo archive:
 https://doi.org/10.5281/zenodo.5167357
 
+> **NOTE:** This collection uses [semantic version](https://semver.org/) 
+> (i.e., `MAJOR.MINOR.BUGFIX` format). 
+> Major releases mean that backwards incompatible changes were made to the data. 
+> Minor releases add new data without changing existing files. 
+> Bug fix releases fix errors in a previous release that makes the data unusable. 
+> Changes to the current data files will always be published as a major release 
+> unless the file(s) in the previous release was unusable/corrupted.
+
 ## Datasets
 
 | File name | Size | Hashes |
