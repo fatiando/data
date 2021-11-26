@@ -12,8 +12,7 @@ tab in the repository) or contact us at one of the other channels mentioned belo
 ## General Guidelines
 
 For general information about contributing to open-source and the Fatiando a Terra
-projects, please refer to our 
-[standard Contributing Guide](https://github.com/fatiando/community/blob/main/CONTRIBUTING.md).
+projects, please refer to our [standard Contributing Guide][contrib].
 
 This document also contains guidelines specific to this repository below.
 
@@ -22,9 +21,8 @@ This document also contains guidelines specific to this repository below.
 
 The goal is to maintain a diverse community that's pleasant for everyone.
 **Please be considerate and respectful of others**.
-Everyone must abide by our 
-[Code of Conduct](https://github.com/fatiando/community/blob/main/CODE_OF_CONDUCT.md) 
-and we encourage all to read it carefully.
+Everyone must abide by our [Code of Conduct][coc] and we encourage all to read 
+it carefully.
 
 
 ## Requirements for datasets
@@ -67,22 +65,33 @@ Output datasets should:
    
 ## Adding a new dataset
 
-First, open an Issue with information about the proposed dataset for discussion.
+1. **Propose a new dataset:** First, open an Issue with information about the 
+   proposed dataset for discussion.
+2. **Add the dataset to this repositor:** If the dataset is found to be acceptible by the
+   maintainers, open a pull request against the `main` branch of this repository 
+   with the proposed changes. 
 
-If the dataset is found to be acceptible by the maintainers, open a pull request
-against the `main` branch of this repository with the proposed changes:
+Follow these guidelines to prepare the dataset:
 
-1. Create a folder following the naming convention `location_datatype` (all lower
-   case and separated by `_`).
-1. Inside that folder, create a Jupyter notebook called `prepare.ipynb` with the
-   code for downloading (using [Pooch](https://github.com/fatiando/pooch)),
-   formatting (cleaning, slicing, datum conversion, etc), and exporting the 
-   new dataset. Follow the conventions in the other notebooks.
-1. The output dataset should follow the same naming convention as the folder:
-   `location_datatype.extension`.
-1. The notebook should create a `preview.jpg` image with a plot of the output
-   dataset for easy inspection.
-1. If the original data can't be automatically downloaded in the notebook and it
-   is under 50 Mb, you may include it in the repository. Feel free to use 
-   compression to reduce the size of the file(s).
-1. Include the information about the new dataset in the `README.md` file.
+* See our [standard Contributing Guide][contrib] for instructions on creating 
+  pull requests and setting up your environment.
+* Create a folder following the naming convention `location_datatype` (all lower
+  case and separated by `_`).
+* Inside that folder, create a Jupyter notebook called `prepare.ipynb` with the
+  code for downloading (using [Pooch](https://github.com/fatiando/pooch)),
+  formatting (cleaning, slicing, datum conversion, etc), and exporting the 
+  new dataset. Follow the conventions in the other notebooks.
+* If any new dependencies are required to prepare the dataset, add them to the
+  `environment.yml` file.
+* The output dataset should follow the same naming convention as the folder:
+  `location_datatype.extension`.
+* The notebook should create a `preview.jpg` image with a plot of the output
+  dataset for easy inspection.
+* If the original data can't be automatically downloaded in the notebook and it
+  is under 50 Mb, you may include it in the repository. Feel free to use 
+  compression to reduce the size of the file(s).
+* Include the information about the new dataset in the `README.md` file.
+
+
+[contrib]: https://github.com/fatiando/community/blob/main/CONTRIBUTING.md
+[coc]: https://github.com/fatiando/community/blob/main/CODE_OF_CONDUCT.md
