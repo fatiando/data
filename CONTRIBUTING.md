@@ -67,7 +67,7 @@ Output datasets should:
 
 1. **Propose a new dataset:** First, open an Issue with information about the 
    proposed dataset for discussion.
-2. **Add the dataset to this repositor:** If the dataset is found to be acceptible by the
+2. **Add the dataset to this repository:** If the dataset is found to be acceptible by the
    maintainers, open a pull request against the `main` branch of this repository 
    with the proposed changes. 
 
