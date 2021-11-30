@@ -13,18 +13,18 @@ original data are included in this repository).
 The curated datasets are published in a Zenodo archive:
 https://doi.org/10.5281/zenodo.5167356
 
-> **NOTE:** This collection uses [semantic version](https://semver.org/) 
-> (i.e., `MAJOR.MINOR.BUGFIX` format). 
-> Major releases mean that backwards incompatible changes were made to the data. 
-> Minor releases add new data without changing existing files. 
-> Bug fix releases fix errors in a previous release that makes the data unusable. 
-> Changes to the current data files will always be published as a major release 
+> **NOTE:** This collection uses [semantic version](https://semver.org/)
+> (i.e., `MAJOR.MINOR.BUGFIX` format).
+> Major releases mean that backwards incompatible changes were made to the data.
+> Minor releases add new data without changing existing files.
+> Bug fix releases fix errors in a previous release that makes the data unusable.
+> Changes to the current data files will always be published as a major release
 > unless the file(s) in the previous release was unusable/corrupted.
 
 
 ## Contributing
 
-See our [Contributing Guidelines](CONTRIBUTING.md) for information on 
+See our [Contributing Guidelines](CONTRIBUTING.md) for information on
 proposing new datasets and making changes to this repository.
 
 
@@ -40,6 +40,9 @@ proposing new datasets and making changes to this repository.
 | `earth-geoid-10arcmin.nc` | 1.3 Mb | `md5:39b97344e704eb68fa381df2eb47da0f` `sha256:e98dd544c8b4b8e5f11d1a316684dfbc2612e2860af07b946df46ed9f782a0f6` |
 | `earth-topography-10arcmin.nc` | 2.7 Mb | `md5:c43b61322e03669c4313ba3d9a58028d` `sha256:e45628a3f559ec600a4003587a2b575402d22986651ee48806930aa909af4cf6` |
 | `southern-africa-gravity.csv.xz` | 0.14 Mb | `md5:1dee324a14e647855366d6eb01a1ef35` `sha256:f5f8e5eb6cd97f104fbb739cf389113cbf28ca8ee003043fab720a0fa7262cac` |
+| `southern-africa-gravity.csv.xz` | 0.14 Mb | `md5:1dee324a14e647855366d6eb01a1ef35` `sha256:f5f8e5eb6cd97f104fbb739cf389113cbf28ca8ee003043fab720a0fa7262cac` |
+| `osborne-magnetic.csv.xz` | 2.3 Mb | `md5:542abd2d3571c9a07718b83ebda0343c` `sha256:06d657e2ccad4873aa0fb55bdea594a9695b2e6ca2460a56be7a2e893f7ada53` |
+
 
 ### GPS velocities for the Alpine region
 
@@ -91,7 +94,7 @@ possible to upload it to this GitHub repository.
 ### Global gravity, geoid height, and topography grids
 
 This dataset includes global 10 arc-minute resolution grids of
-gravity acceleration (gravitational and centrifugal) at 10 km geometric height, 
+gravity acceleration (gravitational and centrifugal) at 10 km geometric height,
 geoid height, and topography/bathymetry (referenced to "sea level").
 
 * Original source: [EIGEN-6C4](https://doi.org/10.5880/icgem.2015.1) (gravity
@@ -115,6 +118,17 @@ model differences).
 * Original license: Public domain
 * More information: [`prepare.ipynb`](https://nbviewer.org/github/fatiando/data/blob/main/southern-africa-gravity/prepare.ipynb)
 
+### Airborne magnetic data of the Osborne Mine and Lightning Creek sill complex, Australia
+
+This is a section of a survey acquired in 1990 by the Queensland Government,
+Australia. The data are good quality with approximately 80 m terrain clearance
+and 200 m line spacing. The anomalies are very visible and present interesting
+processing and modelling challenges, as well as plenty of literature about
+their geology.
+
+* Original source: [Geophysical Acquisition & Processing Section 2019. MIM Data from Mt Isa Inlier, QLD (P1029), magnetic line data, AWAGS levelled. Geoscience Australia, Canberra](http://pid.geoscience.gov.au/dataset/ga/142419)
+* Original license: CC-BY
+* More information: [`prepare.ipynb`](https://nbviewer.org/github/fatiando/data/blob/main/osborne-magnetic/prepare.ipynb)
 
 
 ## License
