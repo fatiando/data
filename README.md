@@ -41,7 +41,7 @@ proposing new datasets and making changes to this repository.
 | `earth-topography-10arcmin.nc` | 2.7 Mb | `md5:c43b61322e03669c4313ba3d9a58028d` `sha256:e45628a3f559ec600a4003587a2b575402d22986651ee48806930aa909af4cf6` |
 | `southern-africa-gravity.csv.xz` | 0.14 Mb | `md5:1dee324a14e647855366d6eb01a1ef35` `sha256:f5f8e5eb6cd97f104fbb739cf389113cbf28ca8ee003043fab720a0fa7262cac` |
 | `southern-africa-gravity.csv.xz` | 0.14 Mb | `md5:1dee324a14e647855366d6eb01a1ef35` `sha256:f5f8e5eb6cd97f104fbb739cf389113cbf28ca8ee003043fab720a0fa7262cac` |
-| `osborne-magnetic.csv.xz` | 2.3 Mb | `md5:542abd2d3571c9a07718b83ebda0343c` `sha256:06d657e2ccad4873aa0fb55bdea594a9695b2e6ca2460a56be7a2e893f7ada53` |
+| `osborne-magnetic.csv.xz` | 2.2 Mb | `md5:a9e680c9b746065a7aea6dc82e198af5` `sha256:243b1f1ed784c8b175db41c546a6d77486fa5e8901def766fef43c04d18ee26a` |
 
 
 ### GPS velocities for the Alpine region
