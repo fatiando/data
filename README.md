@@ -10,15 +10,17 @@ call to `pandas.read_csv` or `xarray.load_dataset`).
 Whenever possible, the code also downloads the original data (otherwise the
 original data are included in this repository).
 
-The curated datasets are published through Zenodo:
-https://doi.org/10.5281/zenodo.5167356
-
 
 ## Versions
 
+The curated datasets are published through Zenodo. 
+Each release is assigned a unique DOI (see the table below).
+The entire collection can be reached through
+https://doi.org/10.5281/zenodo.5167356
+
 Version | Digital Object Identifier (DOI)
 --|--
-v1.0.0 | [](https://doi.org/)
+[v1.0.0](https://github.com/fatiando/data/releases/tag/v1.0.0) | [10.5281/zenodo.5167357](https://doi.org/10.5281/zenodo.5167357)
 
 > **NOTE:** This collection uses [semantic version](https://semver.org/)
 > (i.e., `MAJOR.MINOR.BUGFIX` format).
@@ -41,7 +43,7 @@ import pooch
 import pandas
 
 file_path = pooch.retrieve(
-    url="doi:XXXX/alps-gps-velocity.csv.xz",
+    url="doi:10.5281/zenodo.5167357/alps-gps-velocity.csv.xz",
     known_hash="md5:195ee3d88783ce01b6190c2af89f2b14",
 )
 
