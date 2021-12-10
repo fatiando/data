@@ -10,8 +10,17 @@ call to `pandas.read_csv` or `xarray.load_dataset`).
 Whenever possible, the code also downloads the original data (otherwise the
 original data are included in this repository).
 
-The curated datasets are published in a Zenodo archive:
+
+## Versions
+
+The curated datasets are published through Zenodo. 
+Each release is assigned a unique DOI (see the table below).
+The entire collection can be reached through
 https://doi.org/10.5281/zenodo.5167356
+
+Version | Digital Object Identifier (DOI)
+--|--
+[v1.0.0](https://github.com/fatiando/data/releases/tag/v1.0.0) | [10.5281/zenodo.5167357](https://doi.org/10.5281/zenodo.5167357)
 
 > **NOTE:** This collection uses [semantic version](https://semver.org/)
 > (i.e., `MAJOR.MINOR.BUGFIX` format).
@@ -20,6 +29,29 @@ https://doi.org/10.5281/zenodo.5167356
 > Bug fix releases fix errors in a previous release that makes the data unusable.
 > Changes to the current data files will always be published as a major release
 > unless the file(s) in the previous release was unusable/corrupted.
+
+
+## Downloading
+
+The easiest way to download and use the datasets is using [Pooch](https://www.fatiando.org/pooch).
+For example, the following code downloads, caches (stores a local copy), verifies the
+download integrity, and loads into a `pandas.DataFrame` our Alpine GPS dataset
+from the `v1.0.0` release:
+
+```python
+import pooch
+import pandas
+
+file_path = pooch.retrieve(
+    url="doi:10.5281/zenodo.5167357/alps-gps-velocity.csv.xz",
+    known_hash="md5:195ee3d88783ce01b6190c2af89f2b14",
+)
+
+data = pandas.read_csv(file_path)
+```
+
+To load other data from other releases, replace the file name, DOI, and MD5 hash in the code 
+above.
 
 
 ## Contributing
