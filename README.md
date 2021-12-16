@@ -46,12 +46,26 @@ file_path = pooch.retrieve(
     url="doi:10.5281/zenodo.5167357/alps-gps-velocity.csv.xz",
     known_hash="md5:195ee3d88783ce01b6190c2af89f2b14",
 )
-
 data = pandas.read_csv(file_path)
 ```
 
 To load other data from other releases, replace the file name, DOI, and MD5 hash in the code 
 above.
+
+### The Ensaio package
+
+These datasets are also accessible through the [Ensaio](https://www.fatiando.org/ensaio)
+package:
+
+```python
+import ensaio.v1 as ensaio
+
+file_path = ensaio.fetch_alps_gps()
+data = pandas.read_csv(file_path)
+```
+
+Ensaio uses Pooch under the hood but provides a simpler interface,
+with the DOI, file names, and hashes all stored internally.
 
 
 ## Contributing
