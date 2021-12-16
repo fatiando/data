@@ -72,7 +72,6 @@ proposing new datasets and making changes to this repository.
 | `earth-geoid-10arcmin.nc` | 1.3 Mb | `md5:39b97344e704eb68fa381df2eb47da0f` `sha256:e98dd544c8b4b8e5f11d1a316684dfbc2612e2860af07b946df46ed9f782a0f6` |
 | `earth-topography-10arcmin.nc` | 2.7 Mb | `md5:c43b61322e03669c4313ba3d9a58028d` `sha256:e45628a3f559ec600a4003587a2b575402d22986651ee48806930aa909af4cf6` |
 | `southern-africa-gravity.csv.xz` | 0.14 Mb | `md5:1dee324a14e647855366d6eb01a1ef35` `sha256:f5f8e5eb6cd97f104fbb739cf389113cbf28ca8ee003043fab720a0fa7262cac` |
-| `southern-africa-gravity.csv.xz` | 0.14 Mb | `md5:1dee324a14e647855366d6eb01a1ef35` `sha256:f5f8e5eb6cd97f104fbb739cf389113cbf28ca8ee003043fab720a0fa7262cac` |
 | `osborne-magnetic.csv.xz` | 2.2 Mb | `md5:a9e680c9b746065a7aea6dc82e198af5` `sha256:243b1f1ed784c8b175db41c546a6d77486fa5e8901def766fef43c04d18ee26a` |
 
 
