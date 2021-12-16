@@ -11,26 +11,6 @@ Whenever possible, the code also downloads the original data (otherwise the
 original data are included in this repository).
 
 
-## Versions
-
-The curated datasets are published through Zenodo. 
-Each release is assigned a unique DOI (see the table below).
-The entire collection can be reached through
-https://doi.org/10.5281/zenodo.5167356
-
-Version | Digital Object Identifier (DOI)
---|--
-[v1.0.0](https://github.com/fatiando/data/releases/tag/v1.0.0) | [10.5281/zenodo.5167357](https://doi.org/10.5281/zenodo.5167357)
-
-> **NOTE:** This collection uses [semantic version](https://semver.org/)
-> (i.e., `MAJOR.MINOR.BUGFIX` format).
-> Major releases mean that backwards incompatible changes were made to the data.
-> Minor releases add new data without changing existing files.
-> Bug fix releases fix errors in a previous release that makes the data unusable.
-> Changes to the current data files will always be published as a major release
-> unless the file(s) in the previous release was unusable/corrupted.
-
-
 ## Downloading
 
 The easiest way to download and use the datasets is using [Pooch](https://www.fatiando.org/pooch).
@@ -54,8 +34,7 @@ above.
 
 ### The Ensaio package
 
-These datasets are also accessible through the [Ensaio](https://www.fatiando.org/ensaio)
-package:
+These datasets are also accessible through [Ensaio](https://www.fatiando.org/ensaio):
 
 ```python
 import ensaio.v1 as ensaio
@@ -72,6 +51,26 @@ with the DOI, file names, and hashes all stored internally.
 
 See our [Contributing Guidelines](CONTRIBUTING.md) for information on
 proposing new datasets and making changes to this repository.
+
+
+## Versions
+
+The curated datasets are published through Zenodo. 
+Each release is assigned a unique DOI (see the table below).
+The entire collection can be reached through
+https://doi.org/10.5281/zenodo.5167356
+
+Version | Digital Object Identifier (DOI)
+--|--
+[v1.0.0](https://github.com/fatiando/data/releases/tag/v1.0.0) | [10.5281/zenodo.5167357](https://doi.org/10.5281/zenodo.5167357)
+
+> **NOTE:** This collection uses [semantic version](https://semver.org/)
+> (i.e., `MAJOR.MINOR.BUGFIX` format).
+> Major releases mean that backwards incompatible changes were made to the data.
+> Minor releases add new data without changing existing files.
+> Bug fix releases fix errors in a previous release that makes the data unusable.
+> Changes to the current data files will always be published as a major release
+> unless the file(s) in the previous release was unusable/corrupted.
 
 
 ## Datasets
