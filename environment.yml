@@ -18,10 +18,13 @@ dependencies:
   - laszip # the C lib
   - pip:
     - laszip # the Python bindinds
+  # For reading xlsx files
+  - openpyxl
   # Fatiando
   - pooch>=1.0
-  - harmonica==0.2.1
+  - harmonica==0.4.*
   - verde==1.6.1
+  - boule==0.3.*
   # GMT for plotting
   - pygmt==0.4.1
   - gmt==6.2.0
