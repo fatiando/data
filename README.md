@@ -1,3 +1,12 @@
+<h1 align="center">THIS REPOSITORY IS DEPRECATED</h1>
+
+The collection of FAIR data for Fatiando a Terra has been moved to https://github.com/fatiando-data
+
+This is so that each dataset can be released independently, avoiding duplication of identical data in users' computers.
+As a result, this repository and the associated data at https://doi.org/10.5281/zenodo.5167357 will no longer be updated.
+
+---
+
 # Curated collection of open geophysics data for tutorials and documentation
 
 This is a place to format and prepare public **open-licensed** datasets for
